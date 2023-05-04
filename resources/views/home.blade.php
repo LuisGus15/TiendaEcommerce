@@ -78,23 +78,24 @@
               <div class="col-lg-7 pr-0">
                 <ul class="nav navbar-nav center_nav pull-right">
                   <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="index.html">Inicio</a>
                   </li>
                   <li class="nav-item submenu dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                      aria-expanded="false">Shop</a>
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" 
+                  ; aria-haspopup="true"
+                      aria-expanded="false">Comprar</a>
                     <ul class="dropdown-menu">
                       <li class="nav-item">
-                        <a class="nav-link" href="category.html">Shop Category</a>
+                        <a class="nav-link" href="category.html">Comprar Categoria</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="single-product.html">Product Details</a>
+                        <a class="nav-link" href="single-product.html">Producto detallado</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="checkout.html">Product Checkout</a>
+                        <a class="nav-link" href="checkout.html">Producto Verificado</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="cart.html">Shopping Cart</a>
+                        <a class="nav-link" href="cart.html">Carrito de Compra</a>
                       </li>
                     </ul>
                   </li>
@@ -106,24 +107,24 @@
                         <a class="nav-link" href="blog.html">Blog</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="single-blog.html">Blog Details</a>
+                        <a class="nav-link" href="single-blog.html">Blog Detallado</a>
                       </li>
                     </ul>
                   </li>
                   <li class="nav-item submenu dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                      aria-expanded="false">Pages</a>
+                      aria-expanded="false">Paginas</a>
                     <ul class="dropdown-menu">
                       <li class="nav-item">
-                        <a class="nav-link" href="tracking.html">Tracking</a>
+                        <a class="nav-link" href="tracking.html">Seguimiento</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="elements.html">Elements</a>
+                        <a class="nav-link" href="elements.html">Elementos</a>
                       </li>
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="contact.html">Contactos</a>
                   </li>
                 </ul>
               </div>
@@ -175,9 +176,8 @@
           <div class="single-feature">
             <a href="#" class="title">
               <i class="flaticon-money"></i>
-              <h3>Money back gurantee</h3>
+              <h3>Garantia de devolucion de dinero</h3>
             </a>
-            <p>Shall open divide a one</p>
           </div>
         </div>
 
@@ -185,9 +185,8 @@
           <div class="single-feature">
             <a href="#" class="title">
               <i class="flaticon-truck"></i>
-              <h3>Free Delivery</h3>
+              <h3>Entrega Gratis</h3>
             </a>
-            <p>Shall open divide a one</p>
           </div>
         </div>
 
@@ -195,9 +194,8 @@
           <div class="single-feature">
             <a href="#" class="title">
               <i class="flaticon-support"></i>
-              <h3>Alway support</h3>
+              <h3>Siempre Apoyo</h3>
             </a>
-            <p>Shall open divide a one</p>
           </div>
         </div>
 
@@ -205,9 +203,8 @@
           <div class="single-feature">
             <a href="#" class="title">
               <i class="flaticon-blockchain"></i>
-              <h3>Secure payment</h3>
+              <h3>Seguro de Pagos</h3>
             </a>
-            <p>Shall open divide a one</p>
           </div>
         </div>
       </div>
@@ -221,7 +218,7 @@
       <div class="row justify-content-center">
         <div class="col-lg-12">
           <div class="main_title">
-            <h2><span>Featured product</span></h2>
+            <h2><span>Producto De Calidad </span></h2>
             <p>Bring called seed first of third give itself now ment</p>
           </div>
         </div>
