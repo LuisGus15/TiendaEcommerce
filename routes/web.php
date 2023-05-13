@@ -2,6 +2,9 @@
 
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CategoriaController;
+use App\Http\Controllers\ProductosController;
+use App\Http\Controllers\ProductoController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,5 +29,13 @@ Route::middleware([
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');
-    Route::get('/user',[UserController::class, 'index'])->name('user.index');
+    Route::get('/user', [UserController::class, 'index'])->name('user.index');
+
+    Route::get('/productos', [ProductosController::class, 'index'])->name('productos.index');
+    Route::get('/categoria', [CategoriaController::class, 'index'])->name('categoria.index');
+    
+    
+    
+
+    Route::post('/productos/guardar',[ProductosController::class,'guardar'])->name('productos.guardar');
 });

@@ -45,7 +45,9 @@
 
                         @else
                             <a href="{{ route('login') }}" class="font-semibold text-gray-600 hover:text-gray-900 focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Iniciar sesión</a>
-
+                            @if (Route::has('register'))
+                            <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
+                        @endif
 
                         @endauth
 
@@ -78,24 +80,23 @@
               <div class="col-lg-7 pr-0">
                 <ul class="nav navbar-nav center_nav pull-right">
                   <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Inicio</a>
+                    <a class="nav-link" href="index.html">Home</a>
                   </li>
                   <li class="nav-item submenu dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" 
-                  ; aria-haspopup="true"
-                      aria-expanded="false">Comprar</a>
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                      aria-expanded="false">Shop</a>
                     <ul class="dropdown-menu">
                       <li class="nav-item">
-                        <a class="nav-link" href="category.html">Comprar Categoria</a>
+                        <a class="nav-link" href="category.html">Shop Category</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="single-product.html">Producto detallado</a>
+                        <a class="nav-link" href="single-product.html">Product Details</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="checkout.html">Producto Verificado</a>
+                        <a class="nav-link" href="checkout.html">Product Checkout</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="cart.html">Carrito de Compra</a>
+                        <a class="nav-link" href="cart.html">Shopping Cart</a>
                       </li>
                     </ul>
                   </li>
@@ -107,24 +108,24 @@
                         <a class="nav-link" href="blog.html">Blog</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="single-blog.html">Blog Detallado</a>
+                        <a class="nav-link" href="single-blog.html">Blog Details</a>
                       </li>
                     </ul>
                   </li>
                   <li class="nav-item submenu dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                      aria-expanded="false">Paginas</a>
+                      aria-expanded="false">Pages</a>
                     <ul class="dropdown-menu">
                       <li class="nav-item">
-                        <a class="nav-link" href="tracking.html">Seguimiento</a>
+                        <a class="nav-link" href="tracking.html">Tracking</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="elements.html">Elementos</a>
+                        <a class="nav-link" href="elements.html">Elements</a>
                       </li>
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contactos</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -176,8 +177,9 @@
           <div class="single-feature">
             <a href="#" class="title">
               <i class="flaticon-money"></i>
-              <h3>Garantia de devolucion de dinero</h3>
+              <h3>Money back gurantee</h3>
             </a>
+            <p>Shall open divide a one</p>
           </div>
         </div>
 
@@ -185,8 +187,9 @@
           <div class="single-feature">
             <a href="#" class="title">
               <i class="flaticon-truck"></i>
-              <h3>Entrega Gratis</h3>
+              <h3>Free Delivery</h3>
             </a>
+            <p>Shall open divide a one</p>
           </div>
         </div>
 
@@ -194,8 +197,9 @@
           <div class="single-feature">
             <a href="#" class="title">
               <i class="flaticon-support"></i>
-              <h3>Siempre Apoyo</h3>
+              <h3>Alway support</h3>
             </a>
+            <p>Shall open divide a one</p>
           </div>
         </div>
 
@@ -203,8 +207,9 @@
           <div class="single-feature">
             <a href="#" class="title">
               <i class="flaticon-blockchain"></i>
-              <h3>Seguro de Pagos</h3>
+              <h3>Secure payment</h3>
             </a>
+            <p>Shall open divide a one</p>
           </div>
         </div>
       </div>
@@ -218,7 +223,7 @@
       <div class="row justify-content-center">
         <div class="col-lg-12">
           <div class="main_title">
-            <h2><span>Producto De Calidad </span></h2>
+            <h2><span>Featured product</span></h2>
             <p>Bring called seed first of third give itself now ment</p>
           </div>
         </div>
